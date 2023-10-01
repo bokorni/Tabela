@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Amarante, cursive;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,85,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+table{
+    background-color: #ce88fd;
+    width: 90vw;
+    border-collapse: collapse;
+    
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
